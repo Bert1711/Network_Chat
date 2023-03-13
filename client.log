@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-03-13T16:03:04.550616Z</date>
+  <millis>1678723384550</millis>
+  <nanos>616000</nanos>
+  <sequence>0</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client$SocketThread</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Успешное подключение к серверу.</message>
+</record>
+<record>
+  <date>2023-03-13T16:03:04.622545Z</date>
+  <millis>1678723384622</millis>
+  <nanos>545000</nanos>
+  <sequence>1</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client$SocketThread</class>
+  <method>clientHandshake</method>
+  <thread>16</thread>
+  <message>Сервер запросил имя.</message>
+</record>
+<record>
+  <date>2023-03-13T16:03:15.237943Z</date>
+  <millis>1678723395237</millis>
+  <nanos>943000</nanos>
+  <sequence>2</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client$SocketThread</class>
+  <method>clientHandshake</method>
+  <thread>16</thread>
+  <message>Отправка имени 'bert' на сервер</message>
+</record>
+<record>
+  <date>2023-03-13T16:03:15.238557Z</date>
+  <millis>1678723395238</millis>
+  <nanos>557000</nanos>
+  <sequence>3</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client$SocketThread</class>
+  <method>clientHandshake</method>
+  <thread>16</thread>
+  <message>Сервер принял имя</message>
+</record>
+<record>
+  <date>2023-03-13T16:03:15.238908Z</date>
+  <millis>1678723395238</millis>
+  <nanos>908000</nanos>
+  <sequence>4</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Соединение установлено.</message>
+</record>
+<record>
+  <date>2023-03-13T16:03:15.239324Z</date>
+  <millis>1678723395239</millis>
+  <nanos>324000</nanos>
+  <sequence>5</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client$SocketThread</class>
+  <method>informAboutAddingNewUser</method>
+  <thread>16</thread>
+  <message>Участник 'bert' присоединился к чату.</message>
+</record>
+<record>
+  <date>2023-03-13T16:03:28.549713Z</date>
+  <millis>1678723408549</millis>
+  <nanos>713000</nanos>
+  <sequence>6</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>sendTextMessage</method>
+  <thread>1</thread>
+  <message>Отправлено сообщение: ghbdtn</message>
+</record>
+<record>
+  <date>2023-03-13T16:03:28.559682Z</date>
+  <millis>1678723408559</millis>
+  <nanos>682000</nanos>
+  <sequence>7</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client$SocketThread</class>
+  <method>processIncomingMessage</method>
+  <thread>16</thread>
+  <message>Полученное сообщение: bert: ghbdtn</message>
+</record>
+<record>
+  <date>2023-03-13T16:03:52.092555Z</date>
+  <millis>1678723432092</millis>
+  <nanos>555000</nanos>
+  <sequence>8</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>sendTextMessage</method>
+  <thread>1</thread>
+  <message>Отправлено сообщение: df</message>
+</record>
+<record>
+  <date>2023-03-13T16:03:52.093859Z</date>
+  <millis>1678723432093</millis>
+  <nanos>859000</nanos>
+  <sequence>9</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client$SocketThread</class>
+  <method>processIncomingMessage</method>
+  <thread>16</thread>
+  <message>Полученное сообщение: bert: df</message>
+</record>
+</log>
