@@ -30,7 +30,7 @@ public class Client {
                 // Создаем соединение с сервером
                 connection = new Connection(new Socket(ServerSettings.getHost(), ServerSettings.getPort()));
 
-                addLoggingClient(connection);
+                addLoggingClient();
                 ConsoleHelper.writeMessage("Вы подключились к серверу.");
                 LOGGER.info("Успешное подключение к серверу.");
                 clientHandshake();
@@ -41,7 +41,7 @@ public class Client {
             }
         }
 
-        private void addLoggingClient(Connection connection) {
+        private void addLoggingClient() {
             String nameFileClientLog = "client.log";
             FileHandler fileHandler = null;  // создаем обработчик файлового вывода
             try {

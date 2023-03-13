@@ -1,5 +1,4 @@
 package server;
-
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -16,7 +15,7 @@ public class Server {
 
     public static void main(String[] args) {
 
-        setupLogger();
+        setupLogger(); // Логирование
 
         // Запуск сервера
         ConsoleHelper.writeMessage("Введите порт сервера: 4444");
@@ -183,7 +182,7 @@ public class Server {
  * Метод public static void sendBroadcastMessage(Message message) - метод для отправки сообщения всем клиентам,
  * используя их соединения из словаря connectionMap.
  *
- * Метод private static class Handler extends Thread - вложенный класс, который обрабатывает подключения клиентов.
+ * Класс private static class Handler extends Thread - вложенный класс, который обрабатывает подключения клиентов.
  * Каждый объект класса Handler работает с одним клиентом и выполняет его регистрацию в чате,
  * обмен сообщениями и т.д. Каждый объект класса Handler работает в отдельном потоке.
  *
