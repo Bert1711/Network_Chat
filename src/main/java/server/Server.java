@@ -150,8 +150,10 @@ public class Server {
         for (Connection connection : connectionMap.values()) {
             try {
                 connection.send(message);
-                ConsoleHelper.writeMessage("Всем клиентам отправлено сообщение: " + message);
-                LOGGER.info("Всем клиентам отправлено сообщение: " + message);
+                ConsoleHelper.writeMessage(connection.getRemoteSocketAddress()
+                        + " отправлено сообщение: " + message);
+                LOGGER.info(connection.getRemoteSocketAddress()
+                        + " отправлено сообщение: " + message);
             } catch (IOException e) {
                 LOGGER.warning("Не получилось отправить сообщение " + connection.getRemoteSocketAddress());
                 e.printStackTrace();

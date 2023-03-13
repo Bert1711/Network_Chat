@@ -28,7 +28,7 @@ public class Message implements Serializable {
     @Override
     public String toString() {
         return "Тип сообщения" + type +
-                ", от" + data + '\'' +
+                ", data='" + data + '\'' +
                 '}';
     }
 }
