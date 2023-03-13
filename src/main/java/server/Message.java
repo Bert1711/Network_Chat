@@ -38,7 +38,7 @@ public class Message implements Serializable {
                 message = "Имя принято " + data;
             }
             case USER_ADDED -> {
-                message = "Добавлен пользователь " + data;
+                message = "Добавлен пользователь: " + data;
             }
             case USER_REMOVED -> {
                 message = "Пользователь удалён " + data;

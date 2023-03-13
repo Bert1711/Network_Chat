@@ -370,3 +370,151 @@
   <message>Отправлено сообщение: а</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-03-13T19:12:12.973939Z</date>
+  <millis>1678734732973</millis>
+  <nanos>939000</nanos>
+  <sequence>0</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client$SocketThread</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Успешное подключение к серверу.</message>
+</record>
+<record>
+  <date>2023-03-13T19:12:13.025236Z</date>
+  <millis>1678734733025</millis>
+  <nanos>236000</nanos>
+  <sequence>1</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client$SocketThread</class>
+  <method>clientHandshake</method>
+  <thread>16</thread>
+  <message>Сервер запросил имя.</message>
+</record>
+<record>
+  <date>2023-03-13T19:12:18.062574Z</date>
+  <millis>1678734738062</millis>
+  <nanos>574000</nanos>
+  <sequence>2</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client$SocketThread</class>
+  <method>clientHandshake</method>
+  <thread>16</thread>
+  <message>Отправка имени 'foma' на сервер</message>
+</record>
+<record>
+  <date>2023-03-13T19:12:18.063348Z</date>
+  <millis>1678734738063</millis>
+  <nanos>348000</nanos>
+  <sequence>3</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client$SocketThread</class>
+  <method>clientHandshake</method>
+  <thread>16</thread>
+  <message>Сервер принял имя</message>
+</record>
+<record>
+  <date>2023-03-13T19:12:18.063738Z</date>
+  <millis>1678734738063</millis>
+  <nanos>738000</nanos>
+  <sequence>4</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Соединение установлено.</message>
+</record>
+<record>
+  <date>2023-03-13T19:12:18.064147Z</date>
+  <millis>1678734738064</millis>
+  <nanos>147000</nanos>
+  <sequence>5</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client$SocketThread</class>
+  <method>informAboutAddingNewUser</method>
+  <thread>16</thread>
+  <message>Участник 'foma' присоединился к чату.</message>
+</record>
+<record>
+  <date>2023-03-13T19:12:35.774108Z</date>
+  <millis>1678734755774</millis>
+  <nanos>108000</nanos>
+  <sequence>6</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client$SocketThread</class>
+  <method>informAboutAddingNewUser</method>
+  <thread>16</thread>
+  <message>Участник 'dima' присоединился к чату.</message>
+</record>
+<record>
+  <date>2023-03-13T19:17:06.531149Z</date>
+  <millis>1678735026531</millis>
+  <nanos>149000</nanos>
+  <sequence>7</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>sendTextMessage</method>
+  <thread>1</thread>
+  <message>Отправлено сообщение: кто-нибудь в чате шарит как писать унит-тесты на многопоточность?</message>
+</record>
+<record>
+  <date>2023-03-13T19:17:06.532794Z</date>
+  <millis>1678735026532</millis>
+  <nanos>794000</nanos>
+  <sequence>8</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client$SocketThread</class>
+  <method>processIncomingMessage</method>
+  <thread>16</thread>
+  <message>Полученное сообщение: foma: кто-нибудь в чате шарит как писать унит-тесты на многопоточность?</message>
+</record>
+<record>
+  <date>2023-03-13T19:17:49.454975Z</date>
+  <millis>1678735069454</millis>
+  <nanos>975000</nanos>
+  <sequence>9</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client$SocketThread</class>
+  <method>processIncomingMessage</method>
+  <thread>16</thread>
+  <message>Полученное сообщение: dima: нее! сам 3 дня чекаю как это мутить</message>
+</record>
+<record>
+  <date>2023-03-13T19:18:51.328384Z</date>
+  <millis>1678735131328</millis>
+  <nanos>384000</nanos>
+  <sequence>10</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>sendTextMessage</method>
+  <thread>1</thread>
+  <message>Отправлено сообщение: ясн</message>
+</record>
+<record>
+  <date>2023-03-13T19:18:51.330246Z</date>
+  <millis>1678735131330</millis>
+  <nanos>246000</nanos>
+  <sequence>11</sequence>
+  <logger>client.Client</logger>
+  <level>INFO</level>
+  <class>client.Client$SocketThread</class>
+  <method>processIncomingMessage</method>
+  <thread>16</thread>
+  <message>Полученное сообщение: foma: ясн</message>
+</record>
+</log>

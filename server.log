@@ -1166,3 +1166,463 @@
   <message>Al1: как дела</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-03-13T19:11:54.006591Z</date>
+  <millis>1678734714006</millis>
+  <nanos>591000</nanos>
+  <sequence>0</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Чат-сервер запущен.</message>
+</record>
+<record>
+  <date>2023-03-13T19:12:12.963429Z</date>
+  <millis>1678734732963</millis>
+  <nanos>429000</nanos>
+  <sequence>1</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Установлено новое соединение с /127.0.0.1:57625</message>
+</record>
+<record>
+  <date>2023-03-13T19:12:12.998197Z</date>
+  <millis>1678734732998</millis>
+  <nanos>197000</nanos>
+  <sequence>2</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>chatRegistration</method>
+  <thread>16</thread>
+  <message>Запрошено имя у /127.0.0.1:57625</message>
+</record>
+<record>
+  <date>2023-03-13T19:12:18.056161Z</date>
+  <millis>1678734738056</millis>
+  <nanos>161000</nanos>
+  <sequence>3</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>chatRegistration</method>
+  <thread>16</thread>
+  <message>Имя принято у /127.0.0.1:57625</message>
+</record>
+<record>
+  <date>2023-03-13T19:12:18.056657Z</date>
+  <millis>1678734738056</millis>
+  <nanos>657000</nanos>
+  <sequence>4</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Добавлен участник: foma</message>
+</record>
+<record>
+  <date>2023-03-13T19:12:18.069880Z</date>
+  <millis>1678734738069</millis>
+  <nanos>880000</nanos>
+  <sequence>5</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>16</thread>
+  <message>/127.0.0.1:57625 отправлено сообщение: Добавлен пользователь foma</message>
+</record>
+<record>
+  <date>2023-03-13T19:12:25.916462Z</date>
+  <millis>1678734745916</millis>
+  <nanos>462000</nanos>
+  <sequence>6</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>17</thread>
+  <message>Установлено новое соединение с /127.0.0.1:57630</message>
+</record>
+<record>
+  <date>2023-03-13T19:12:25.917710Z</date>
+  <millis>1678734745917</millis>
+  <nanos>710000</nanos>
+  <sequence>7</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>chatRegistration</method>
+  <thread>17</thread>
+  <message>Запрошено имя у /127.0.0.1:57630</message>
+</record>
+<record>
+  <date>2023-03-13T19:12:35.772530Z</date>
+  <millis>1678734755772</millis>
+  <nanos>530000</nanos>
+  <sequence>8</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>chatRegistration</method>
+  <thread>17</thread>
+  <message>Имя принято у /127.0.0.1:57630</message>
+</record>
+<record>
+  <date>2023-03-13T19:12:35.772951Z</date>
+  <millis>1678734755772</millis>
+  <nanos>951000</nanos>
+  <sequence>9</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>17</thread>
+  <message>Добавлен участник: dima</message>
+</record>
+<record>
+  <date>2023-03-13T19:12:35.773379Z</date>
+  <millis>1678734755773</millis>
+  <nanos>379000</nanos>
+  <sequence>10</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>17</thread>
+  <message>/127.0.0.1:57630 отправлено сообщение: Добавлен пользователь dima</message>
+</record>
+<record>
+  <date>2023-03-13T19:12:35.773866Z</date>
+  <millis>1678734755773</millis>
+  <nanos>866000</nanos>
+  <sequence>11</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>17</thread>
+  <message>/127.0.0.1:57625 отправлено сообщение: Добавлен пользователь dima</message>
+</record>
+<record>
+  <date>2023-03-13T19:12:35.777439Z</date>
+  <millis>1678734755777</millis>
+  <nanos>439000</nanos>
+  <sequence>12</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>notifyUsers</method>
+  <thread>17</thread>
+  <message>Уведомление пользователя /127.0.0.1:57630 о других участников чата.</message>
+</record>
+<record>
+  <date>2023-03-13T19:17:06.530950Z</date>
+  <millis>1678735026530</millis>
+  <nanos>950000</nanos>
+  <sequence>13</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>serverMainLoop</method>
+  <thread>16</thread>
+  <message>Входящее сообщение от foma: кто-нибудь в чате шарит как писать унит-тесты на многопоточность?</message>
+</record>
+<record>
+  <date>2023-03-13T19:17:06.531829Z</date>
+  <millis>1678735026531</millis>
+  <nanos>829000</nanos>
+  <sequence>14</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>16</thread>
+  <message>/127.0.0.1:57630 отправлено сообщение: Текстовое сообщение foma: кто-нибудь в чате шарит как писать унит-тесты на многопоточность?</message>
+</record>
+<record>
+  <date>2023-03-13T19:17:06.532415Z</date>
+  <millis>1678735026532</millis>
+  <nanos>415000</nanos>
+  <sequence>15</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>16</thread>
+  <message>/127.0.0.1:57625 отправлено сообщение: Текстовое сообщение foma: кто-нибудь в чате шарит как писать унит-тесты на многопоточность?</message>
+</record>
+<record>
+  <date>2023-03-13T19:17:06.533047Z</date>
+  <millis>1678735026533</millis>
+  <nanos>47000</nanos>
+  <sequence>16</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>serverMainLoop</method>
+  <thread>16</thread>
+  <message>foma: кто-нибудь в чате шарит как писать унит-тесты на многопоточность?</message>
+</record>
+<record>
+  <date>2023-03-13T19:17:49.452872Z</date>
+  <millis>1678735069452</millis>
+  <nanos>872000</nanos>
+  <sequence>17</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>serverMainLoop</method>
+  <thread>17</thread>
+  <message>Входящее сообщение от dima: нее! сам 3 дня чекаю как это мутить</message>
+</record>
+<record>
+  <date>2023-03-13T19:17:49.453853Z</date>
+  <millis>1678735069453</millis>
+  <nanos>853000</nanos>
+  <sequence>18</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>17</thread>
+  <message>/127.0.0.1:57630 отправлено сообщение: Текстовое сообщение dima: нее! сам 3 дня чекаю как это мутить</message>
+</record>
+<record>
+  <date>2023-03-13T19:17:49.454677Z</date>
+  <millis>1678735069454</millis>
+  <nanos>677000</nanos>
+  <sequence>19</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>17</thread>
+  <message>/127.0.0.1:57625 отправлено сообщение: Текстовое сообщение dima: нее! сам 3 дня чекаю как это мутить</message>
+</record>
+<record>
+  <date>2023-03-13T19:17:49.455084Z</date>
+  <millis>1678735069455</millis>
+  <nanos>84000</nanos>
+  <sequence>20</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>serverMainLoop</method>
+  <thread>17</thread>
+  <message>dima: нее! сам 3 дня чекаю как это мутить</message>
+</record>
+<record>
+  <date>2023-03-13T19:18:51.328759Z</date>
+  <millis>1678735131328</millis>
+  <nanos>759000</nanos>
+  <sequence>21</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>serverMainLoop</method>
+  <thread>16</thread>
+  <message>Входящее сообщение от foma: ясн</message>
+</record>
+<record>
+  <date>2023-03-13T19:18:51.329424Z</date>
+  <millis>1678735131329</millis>
+  <nanos>424000</nanos>
+  <sequence>22</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>16</thread>
+  <message>/127.0.0.1:57630 отправлено сообщение: Текстовое сообщение foma: ясн</message>
+</record>
+<record>
+  <date>2023-03-13T19:18:51.329921Z</date>
+  <millis>1678735131329</millis>
+  <nanos>921000</nanos>
+  <sequence>23</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>16</thread>
+  <message>/127.0.0.1:57625 отправлено сообщение: Текстовое сообщение foma: ясн</message>
+</record>
+<record>
+  <date>2023-03-13T19:18:51.330251Z</date>
+  <millis>1678735131330</millis>
+  <nanos>251000</nanos>
+  <sequence>24</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>serverMainLoop</method>
+  <thread>16</thread>
+  <message>foma: ясн</message>
+</record>
+<record>
+  <date>2023-03-13T19:18:56.918392Z</date>
+  <millis>1678735136918</millis>
+  <nanos>392000</nanos>
+  <sequence>25</sequence>
+  <logger>server.Server</logger>
+  <level>SEVERE</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Ошибка при обмене данных с /127.0.0.1:57625</message>
+</record>
+<record>
+  <date>2023-03-13T19:18:56.919494Z</date>
+  <millis>1678735136919</millis>
+  <nanos>494000</nanos>
+  <sequence>26</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Удалён участник: foma</message>
+</record>
+<record>
+  <date>2023-03-13T19:18:56.920115Z</date>
+  <millis>1678735136920</millis>
+  <nanos>115000</nanos>
+  <sequence>27</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>16</thread>
+  <message>/127.0.0.1:57630 отправлено сообщение: Пользователь удалён foma</message>
+</record>
+<record>
+  <date>2023-03-13T19:18:56.921005Z</date>
+  <millis>1678735136921</millis>
+  <nanos>5000</nanos>
+  <sequence>28</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Соединение с /127.0.0.1:57625 закрыто</message>
+</record>
+<record>
+  <date>2023-03-13T19:19:25.579369Z</date>
+  <millis>1678735165579</millis>
+  <nanos>369000</nanos>
+  <sequence>29</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>serverMainLoop</method>
+  <thread>17</thread>
+  <message>Входящее сообщение от dima: есть кто в сети?</message>
+</record>
+<record>
+  <date>2023-03-13T19:19:25.580011Z</date>
+  <millis>1678735165580</millis>
+  <nanos>11000</nanos>
+  <sequence>30</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>17</thread>
+  <message>/127.0.0.1:57630 отправлено сообщение: Текстовое сообщение dima: есть кто в сети?</message>
+</record>
+<record>
+  <date>2023-03-13T19:19:25.580424Z</date>
+  <millis>1678735165580</millis>
+  <nanos>424000</nanos>
+  <sequence>31</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>serverMainLoop</method>
+  <thread>17</thread>
+  <message>dima: есть кто в сети?</message>
+</record>
+<record>
+  <date>2023-03-13T19:20:47.934887Z</date>
+  <millis>1678735247934</millis>
+  <nanos>887000</nanos>
+  <sequence>32</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>serverMainLoop</method>
+  <thread>17</thread>
+  <message>Входящее сообщение от dima: админ, чат збс. все в адеквате поцы((( тока видеть бы кто онлайн есть</message>
+</record>
+<record>
+  <date>2023-03-13T19:20:47.935510Z</date>
+  <millis>1678735247935</millis>
+  <nanos>510000</nanos>
+  <sequence>33</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>17</thread>
+  <message>/127.0.0.1:57630 отправлено сообщение: Текстовое сообщение dima: админ, чат збс. все в адеквате поцы((( тока видеть бы кто онлайн есть</message>
+</record>
+<record>
+  <date>2023-03-13T19:20:47.935775Z</date>
+  <millis>1678735247935</millis>
+  <nanos>775000</nanos>
+  <sequence>34</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>serverMainLoop</method>
+  <thread>17</thread>
+  <message>dima: админ, чат збс. все в адеквате поцы((( тока видеть бы кто онлайн есть</message>
+</record>
+<record>
+  <date>2023-03-13T19:21:21.307447Z</date>
+  <millis>1678735281307</millis>
+  <nanos>447000</nanos>
+  <sequence>35</sequence>
+  <logger>server.Server</logger>
+  <level>SEVERE</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>17</thread>
+  <message>Ошибка при обмене данных с /127.0.0.1:57630</message>
+</record>
+<record>
+  <date>2023-03-13T19:21:21.308558Z</date>
+  <millis>1678735281308</millis>
+  <nanos>558000</nanos>
+  <sequence>36</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>17</thread>
+  <message>Удалён участник: dima</message>
+</record>
+<record>
+  <date>2023-03-13T19:21:21.308993Z</date>
+  <millis>1678735281308</millis>
+  <nanos>993000</nanos>
+  <sequence>37</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>17</thread>
+  <message>Соединение с /127.0.0.1:57630 закрыто</message>
+</record>
+</log>
