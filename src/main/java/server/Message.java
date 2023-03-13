@@ -27,8 +27,29 @@ public class Message implements Serializable {
 
     @Override
     public String toString() {
-        return "Тип сообщения" + type +
-                ", data='" + data + '\'' +
-                '}';
+
+        String str = null;
+        switch (type) {
+
+            case TEXT -> {
+                str = "Текстовое сообщение " + data;
+            }
+            case NAME_ACCEPTED -> {
+                str = "Имя принято " + data;
+            }
+            case USER_ADDED -> {
+                str = "Добавлен пользователь " + data;
+            }
+            case USER_REMOVED -> {
+                str = "Пользователь удалён " + data;
+            }
+            case NAME_REQUEST -> {
+                str = "Запрошено имя у " + data;
+            }
+            case USER_NAME -> {
+                str = "Имя пользователя ";
+            }
+        }
+        return str;
     }
 }
