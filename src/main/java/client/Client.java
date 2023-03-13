@@ -1,5 +1,4 @@
 package client;
-
 import server.*;
 import java.io.IOException;
 import java.net.Socket;
@@ -39,18 +38,6 @@ public class Client {
             } catch (IOException | ClassNotFoundException e) {
                 notifyConnectionStatusChanged(false);
             }
-        }
-
-        private void addLoggingClient() {
-            String nameFileClientLog = "client.log";
-            FileHandler fileHandler = null;  // создаем обработчик файлового вывода
-            try {
-                fileHandler = new FileHandler(nameFileClientLog, true);
-            } catch (IOException e) {
-                LOGGER.severe("Ошибка при создании log-обработчика.");
-            }
-            LOGGER.setUseParentHandlers(false); // отключаем логирование в консоль.
-            LOGGER.addHandler(fileHandler);  // добавляем обработчик в наш логгер.
         }
 
         protected void clientHandshake() throws IOException, ClassNotFoundException {
@@ -119,8 +106,8 @@ public class Client {
                 Client.this.notify();
             }
         }
-    }
 
+    }
 
 
     protected void sendTextMessage(String text) {
@@ -174,4 +161,57 @@ public class Client {
                 sendTextMessage(text);
         }
     }
+
+    private void addLoggingClient() {
+        String nameFileClientLog = "client.log";
+        FileHandler fileHandler = null;  // создаем обработчик файлового вывода
+        try {
+            fileHandler = new FileHandler(nameFileClientLog, true);
+        } catch (IOException e) {
+            LOGGER.severe("Ошибка при создании log-обработчика.");
+        }
+        LOGGER.setUseParentHandlers(false); // отключаем логирование в консоль.
+        LOGGER.addHandler(fileHandler);  // добавляем обработчик в наш логгер.
+    }
 }
+
+
+/**
+ *
+ *   Данный класс реализует простейший чат-клиент, подключаемый к серверу через сокетное соединение.
+ *
+ *   Класс Client имеет вложенный класс SocketThread, который реализует Runnable интерфейс
+ *   и переопределяет метод run(). Этот метод осуществляет подключение к серверу,
+ *   принимает и обрабатывает сообщения от сервера.
+ *
+ *   В методе run() создается новый поток SocketThread, помеченный как daemon, и запускается методом start().
+ *   Затем главный поток приостанавливается до тех пор, пока не будет уведомлен о том, что клиент подключился к серверу.
+ *
+ *   После подключения клиента, если соединение было успешно установлено,
+ *   выводится сообщение о подключении и возможности отправки сообщений.
+ *   При отправке сообщения, клиент использует метод sendTextMessage(),
+ *   который формирует и отправляет объект типа Message, содержащий текст сообщения.
+ *
+ *  SocketThread имеет ряд защищенных методов, в том числе:
+ *
+ *    clientHandshake() - обмен сообщениями с сервером при подключении клиента,
+ *    в том числе получение имени пользователя и отправку его на сервер.
+ *
+ *    clientMainLoop() - цикл обработки сообщений от сервера,
+ *    в том числе получение текстовых сообщений, уведомлений о новых пользователях и выходе пользователя из чата.
+ *
+ *    processIncomingMessage() - вывод текста сообщения в консоль.
+ *
+ *    informAboutAddingNewUser() - вывод информации о добавлении нового пользователя в чат.
+ *
+ *    informAboutDeletingNewUser() - вывод информации о выходе пользователя из чата.
+ *
+ *    notifyConnectionStatusChanged() - уведомление главного потока о том, что клиент подключился к серверу.
+ *
+ *  Client также содержит защищенный метод getUserName(), который запрашивает у пользователя имя.
+ *
+ *  Класс Logger используется для ведения логов работы клиента.
+ *
+ *  Клиент работает в бесконечном цикле, пока пользователь не введет команду "exit".
+ *
+ */
