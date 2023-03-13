@@ -28,28 +28,28 @@ public class Message implements Serializable {
     @Override
     public String toString() {
 
-        String str = null;
+        String message = null;
         switch (type) {
 
             case TEXT -> {
-                str = "Текстовое сообщение " + data;
+                message = "Текстовое сообщение " + data;
             }
             case NAME_ACCEPTED -> {
-                str = "Имя принято " + data;
+                message = "Имя принято " + data;
             }
             case USER_ADDED -> {
-                str = "Добавлен пользователь " + data;
+                message = "Добавлен пользователь " + data;
             }
             case USER_REMOVED -> {
-                str = "Пользователь удалён " + data;
+                message = "Пользователь удалён " + data;
             }
             case NAME_REQUEST -> {
-                str = "Запрошено имя у " + data;
+                message = "Запрошено имя у " + data;
             }
             case USER_NAME -> {
-                str = "Имя пользователя ";
+                message = "Имя пользователя ";
             }
         }
-        return str;
+        return message;
     }
 }
