@@ -594,3 +594,575 @@
   <message>Соединение с /127.0.0.1:49643 закрыто</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-03-13T16:15:53.508423Z</date>
+  <millis>1678724153508</millis>
+  <nanos>423000</nanos>
+  <sequence>0</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Чат-сервер запущен.</message>
+</record>
+<record>
+  <date>2023-03-13T16:16:03.198066Z</date>
+  <millis>1678724163198</millis>
+  <nanos>66000</nanos>
+  <sequence>1</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Установлено новое соединение с /127.0.0.1:49673</message>
+</record>
+<record>
+  <date>2023-03-13T16:16:03.238254Z</date>
+  <millis>1678724163238</millis>
+  <nanos>254000</nanos>
+  <sequence>2</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>chatRegistration</method>
+  <thread>16</thread>
+  <message>Запрошено имя у /127.0.0.1:49673</message>
+</record>
+<record>
+  <date>2023-03-13T16:16:30.781650Z</date>
+  <millis>1678724190781</millis>
+  <nanos>650000</nanos>
+  <sequence>3</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>chatRegistration</method>
+  <thread>16</thread>
+  <message>Имя принято у /127.0.0.1:49673</message>
+</record>
+<record>
+  <date>2023-03-13T16:16:30.782096Z</date>
+  <millis>1678724190782</millis>
+  <nanos>96000</nanos>
+  <sequence>4</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Добавлен участник: Albert1</message>
+</record>
+<record>
+  <date>2023-03-13T16:16:30.784185Z</date>
+  <millis>1678724190784</millis>
+  <nanos>185000</nanos>
+  <sequence>5</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>16</thread>
+  <message>Всем клиентам отправлено сообщение: server.Message@4c9ad685</message>
+</record>
+<record>
+  <date>2023-03-13T16:16:59.386683Z</date>
+  <millis>1678724219386</millis>
+  <nanos>683000</nanos>
+  <sequence>6</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>17</thread>
+  <message>Установлено новое соединение с /127.0.0.1:49678</message>
+</record>
+<record>
+  <date>2023-03-13T16:16:59.388192Z</date>
+  <millis>1678724219388</millis>
+  <nanos>192000</nanos>
+  <sequence>7</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>chatRegistration</method>
+  <thread>17</thread>
+  <message>Запрошено имя у /127.0.0.1:49678</message>
+</record>
+<record>
+  <date>2023-03-13T16:17:07.919385Z</date>
+  <millis>1678724227919</millis>
+  <nanos>385000</nanos>
+  <sequence>8</sequence>
+  <logger>server.Server</logger>
+  <level>WARNING</level>
+  <class>server.Server$ServerHandler</class>
+  <method>chatRegistration</method>
+  <thread>17</thread>
+  <message>Попытка подключения к серверу с уже используемым именем от /127.0.0.1:49678</message>
+</record>
+<record>
+  <date>2023-03-13T16:17:07.919915Z</date>
+  <millis>1678724227919</millis>
+  <nanos>915000</nanos>
+  <sequence>9</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>chatRegistration</method>
+  <thread>17</thread>
+  <message>Запрошено имя у /127.0.0.1:49678</message>
+</record>
+<record>
+  <date>2023-03-13T16:17:17.970295Z</date>
+  <millis>1678724237970</millis>
+  <nanos>295000</nanos>
+  <sequence>10</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>chatRegistration</method>
+  <thread>17</thread>
+  <message>Имя принято у /127.0.0.1:49678</message>
+</record>
+<record>
+  <date>2023-03-13T16:17:17.970651Z</date>
+  <millis>1678724237970</millis>
+  <nanos>651000</nanos>
+  <sequence>11</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>17</thread>
+  <message>Добавлен участник: Albert2</message>
+</record>
+<record>
+  <date>2023-03-13T16:17:17.971108Z</date>
+  <millis>1678724237971</millis>
+  <nanos>108000</nanos>
+  <sequence>12</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>17</thread>
+  <message>Всем клиентам отправлено сообщение: server.Message@23415dcf</message>
+</record>
+<record>
+  <date>2023-03-13T16:17:17.971536Z</date>
+  <millis>1678724237971</millis>
+  <nanos>536000</nanos>
+  <sequence>13</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>17</thread>
+  <message>Всем клиентам отправлено сообщение: server.Message@23415dcf</message>
+</record>
+<record>
+  <date>2023-03-13T16:17:17.977832Z</date>
+  <millis>1678724237977</millis>
+  <nanos>832000</nanos>
+  <sequence>14</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>notifyUsers</method>
+  <thread>17</thread>
+  <message>Уведомление пользователя /127.0.0.1:49678 о других участников чата.</message>
+</record>
+<record>
+  <date>2023-03-13T16:18:17.113972Z</date>
+  <millis>1678724297113</millis>
+  <nanos>972000</nanos>
+  <sequence>15</sequence>
+  <logger>server.Server</logger>
+  <level>SEVERE</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Ошибка при обмене данных с /127.0.0.1:49673</message>
+</record>
+<record>
+  <date>2023-03-13T16:18:17.115125Z</date>
+  <millis>1678724297115</millis>
+  <nanos>125000</nanos>
+  <sequence>16</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Удалён участник: Albert1</message>
+</record>
+<record>
+  <date>2023-03-13T16:18:17.115630Z</date>
+  <millis>1678724297115</millis>
+  <nanos>630000</nanos>
+  <sequence>17</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>16</thread>
+  <message>Всем клиентам отправлено сообщение: server.Message@2f2b8bad</message>
+</record>
+<record>
+  <date>2023-03-13T16:18:17.116396Z</date>
+  <millis>1678724297116</millis>
+  <nanos>396000</nanos>
+  <sequence>18</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Соединение с /127.0.0.1:49673 закрыто</message>
+</record>
+<record>
+  <date>2023-03-13T16:18:21.927667Z</date>
+  <millis>1678724301927</millis>
+  <nanos>667000</nanos>
+  <sequence>19</sequence>
+  <logger>server.Server</logger>
+  <level>SEVERE</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>17</thread>
+  <message>Ошибка при обмене данных с /127.0.0.1:49678</message>
+</record>
+<record>
+  <date>2023-03-13T16:18:21.928331Z</date>
+  <millis>1678724301928</millis>
+  <nanos>331000</nanos>
+  <sequence>20</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>17</thread>
+  <message>Удалён участник: Albert2</message>
+</record>
+<record>
+  <date>2023-03-13T16:18:21.928634Z</date>
+  <millis>1678724301928</millis>
+  <nanos>634000</nanos>
+  <sequence>21</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>17</thread>
+  <message>Соединение с /127.0.0.1:49678 закрыто</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-03-13T16:24:30.840059Z</date>
+  <millis>1678724670840</millis>
+  <nanos>59000</nanos>
+  <sequence>0</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Чат-сервер запущен.</message>
+</record>
+<record>
+  <date>2023-03-13T16:24:39.415192Z</date>
+  <millis>1678724679415</millis>
+  <nanos>192000</nanos>
+  <sequence>1</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Установлено новое соединение с /127.0.0.1:49699</message>
+</record>
+<record>
+  <date>2023-03-13T16:24:39.454793Z</date>
+  <millis>1678724679454</millis>
+  <nanos>793000</nanos>
+  <sequence>2</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>chatRegistration</method>
+  <thread>16</thread>
+  <message>Запрошено имя у /127.0.0.1:49699</message>
+</record>
+<record>
+  <date>2023-03-13T16:24:52.306261Z</date>
+  <millis>1678724692306</millis>
+  <nanos>261000</nanos>
+  <sequence>3</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>chatRegistration</method>
+  <thread>16</thread>
+  <message>Имя принято у /127.0.0.1:49699</message>
+</record>
+<record>
+  <date>2023-03-13T16:24:52.306752Z</date>
+  <millis>1678724692306</millis>
+  <nanos>752000</nanos>
+  <sequence>4</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Добавлен участник: Al1</message>
+</record>
+<record>
+  <date>2023-03-13T16:24:52.319603Z</date>
+  <millis>1678724692319</millis>
+  <nanos>603000</nanos>
+  <sequence>5</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>16</thread>
+  <message>Всем клиентам отправлено сообщение: Message{type=USER_ADDED, data='Al1'}</message>
+</record>
+<record>
+  <date>2023-03-13T16:25:53.528887Z</date>
+  <millis>1678724753528</millis>
+  <nanos>887000</nanos>
+  <sequence>6</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>17</thread>
+  <message>Установлено новое соединение с /127.0.0.1:49704</message>
+</record>
+<record>
+  <date>2023-03-13T16:25:53.530240Z</date>
+  <millis>1678724753530</millis>
+  <nanos>240000</nanos>
+  <sequence>7</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>chatRegistration</method>
+  <thread>17</thread>
+  <message>Запрошено имя у /127.0.0.1:49704</message>
+</record>
+<record>
+  <date>2023-03-13T16:25:59.429326Z</date>
+  <millis>1678724759429</millis>
+  <nanos>326000</nanos>
+  <sequence>8</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>chatRegistration</method>
+  <thread>17</thread>
+  <message>Имя принято у /127.0.0.1:49704</message>
+</record>
+<record>
+  <date>2023-03-13T16:25:59.429778Z</date>
+  <millis>1678724759429</millis>
+  <nanos>778000</nanos>
+  <sequence>9</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>run</method>
+  <thread>17</thread>
+  <message>Добавлен участник: dgdg</message>
+</record>
+<record>
+  <date>2023-03-13T16:25:59.430259Z</date>
+  <millis>1678724759430</millis>
+  <nanos>259000</nanos>
+  <sequence>10</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>17</thread>
+  <message>Всем клиентам отправлено сообщение: Message{type=USER_ADDED, data='dgdg'}</message>
+</record>
+<record>
+  <date>2023-03-13T16:25:59.430676Z</date>
+  <millis>1678724759430</millis>
+  <nanos>676000</nanos>
+  <sequence>11</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>17</thread>
+  <message>Всем клиентам отправлено сообщение: Message{type=USER_ADDED, data='dgdg'}</message>
+</record>
+<record>
+  <date>2023-03-13T16:25:59.433718Z</date>
+  <millis>1678724759433</millis>
+  <nanos>718000</nanos>
+  <sequence>12</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>notifyUsers</method>
+  <thread>17</thread>
+  <message>Уведомление пользователя /127.0.0.1:49704 о других участников чата.</message>
+</record>
+<record>
+  <date>2023-03-13T16:26:19.604331Z</date>
+  <millis>1678724779604</millis>
+  <nanos>331000</nanos>
+  <sequence>13</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>serverMainLoop</method>
+  <thread>16</thread>
+  <message>Входящее сообщение от Al1: привет всем</message>
+</record>
+<record>
+  <date>2023-03-13T16:26:19.605107Z</date>
+  <millis>1678724779605</millis>
+  <nanos>107000</nanos>
+  <sequence>14</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>16</thread>
+  <message>Всем клиентам отправлено сообщение: Message{type=TEXT, data='Al1: привет всем'}</message>
+</record>
+<record>
+  <date>2023-03-13T16:26:19.605643Z</date>
+  <millis>1678724779605</millis>
+  <nanos>643000</nanos>
+  <sequence>15</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>16</thread>
+  <message>Всем клиентам отправлено сообщение: Message{type=TEXT, data='Al1: привет всем'}</message>
+</record>
+<record>
+  <date>2023-03-13T16:26:19.606078Z</date>
+  <millis>1678724779606</millis>
+  <nanos>78000</nanos>
+  <sequence>16</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>serverMainLoop</method>
+  <thread>16</thread>
+  <message>Al1: привет всем</message>
+</record>
+<record>
+  <date>2023-03-13T16:26:32.371636Z</date>
+  <millis>1678724792371</millis>
+  <nanos>636000</nanos>
+  <sequence>17</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>serverMainLoop</method>
+  <thread>17</thread>
+  <message>Входящее сообщение от dgdg: привет</message>
+</record>
+<record>
+  <date>2023-03-13T16:26:32.372150Z</date>
+  <millis>1678724792372</millis>
+  <nanos>150000</nanos>
+  <sequence>18</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>17</thread>
+  <message>Всем клиентам отправлено сообщение: Message{type=TEXT, data='dgdg: привет'}</message>
+</record>
+<record>
+  <date>2023-03-13T16:26:32.372531Z</date>
+  <millis>1678724792372</millis>
+  <nanos>531000</nanos>
+  <sequence>19</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>17</thread>
+  <message>Всем клиентам отправлено сообщение: Message{type=TEXT, data='dgdg: привет'}</message>
+</record>
+<record>
+  <date>2023-03-13T16:26:32.372985Z</date>
+  <millis>1678724792372</millis>
+  <nanos>985000</nanos>
+  <sequence>20</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>serverMainLoop</method>
+  <thread>17</thread>
+  <message>dgdg: привет</message>
+</record>
+<record>
+  <date>2023-03-13T16:28:36.846704Z</date>
+  <millis>1678724916846</millis>
+  <nanos>704000</nanos>
+  <sequence>21</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>serverMainLoop</method>
+  <thread>16</thread>
+  <message>Входящее сообщение от Al1: как дела</message>
+</record>
+<record>
+  <date>2023-03-13T16:28:36.847225Z</date>
+  <millis>1678724916847</millis>
+  <nanos>225000</nanos>
+  <sequence>22</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>16</thread>
+  <message>Всем клиентам отправлено сообщение: Message{type=TEXT, data='Al1: как дела'}</message>
+</record>
+<record>
+  <date>2023-03-13T16:28:36.847594Z</date>
+  <millis>1678724916847</millis>
+  <nanos>594000</nanos>
+  <sequence>23</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>sendBroadcastMessage</method>
+  <thread>16</thread>
+  <message>Всем клиентам отправлено сообщение: Message{type=TEXT, data='Al1: как дела'}</message>
+</record>
+<record>
+  <date>2023-03-13T16:28:36.848006Z</date>
+  <millis>1678724916848</millis>
+  <nanos>6000</nanos>
+  <sequence>24</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server$ServerHandler</class>
+  <method>serverMainLoop</method>
+  <thread>16</thread>
+  <message>Al1: как дела</message>
+</record>
+</log>

@@ -24,4 +24,11 @@ public class Message implements Serializable {
     public String getData() {
         return data;
     }
+
+    @Override
+    public String toString() {
+        return "Тип сообщения" + type +
+                ", от" + data + '\'' +
+                '}';
+    }
 }

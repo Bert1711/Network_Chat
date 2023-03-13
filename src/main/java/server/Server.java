@@ -16,15 +16,7 @@ public class Server {
 
     public static void main(String[] args) {
 
-        FileHandler fileHandler = null;  // создаем обработчик файлового вывода
-        try {
-            fileHandler = new FileHandler("server.log", true);
-        } catch (IOException e) {
-            LOGGER.severe("Ошибка при создании обработчика файлового вывода.");
-        }
-        LOGGER.setUseParentHandlers(false); // отключаем логирование в консоль.
-        LOGGER.addHandler(fileHandler);  // добавляем обработчик в наш логгер
-
+        setupLogger();
 
         // Запуск сервера
         ConsoleHelper.writeMessage("Введите порт сервера: 4444");
@@ -40,6 +32,17 @@ public class Server {
             LOGGER.log(Level.SEVERE,"Произошла ошибка при запуске или при работе сервера.");
             e.printStackTrace();
         }
+    }
+
+    private static void setupLogger() {
+        FileHandler fileHandler = null;  // создаем обработчик файлового вывода
+        try {
+            fileHandler = new FileHandler("server.log", true);
+        } catch (IOException e) {
+            LOGGER.severe("Ошибка при создании обработчика файлового вывода.");
+        }
+        LOGGER.setUseParentHandlers(false); // отключаем логирование в консоль.
+        LOGGER.addHandler(fileHandler);  // добавляем обработчик в наш логгер
     }
 
     public static class ServerHandler extends Thread {
