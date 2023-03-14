@@ -33,16 +33,7 @@ public class Server {
         }
     }
 
-    private static void setupLogger() {
-        FileHandler fileHandler = null;  // создаем обработчик файлового вывода
-        try {
-            fileHandler = new FileHandler("server.log", true);
-        } catch (IOException e) {
-            LOGGER.severe("Ошибка при создании обработчика файлового вывода.");
-        }
-        LOGGER.setUseParentHandlers(false); // отключаем логирование в консоль.
-        LOGGER.addHandler(fileHandler);  // добавляем обработчик в наш логгер
-    }
+
 
     public static class ServerHandler extends Thread {
         private Socket socket;
@@ -158,6 +149,17 @@ public class Server {
                 e.printStackTrace();
             }
         }
+    }
+
+    private static void setupLogger() {
+        FileHandler fileHandler = null;  // создаем обработчик файлового вывода
+        try {
+            fileHandler = new FileHandler("server.log", true);
+        } catch (IOException e) {
+            LOGGER.severe("Ошибка при создании обработчика файлового вывода.");
+        }
+        LOGGER.setUseParentHandlers(false); // отключаем логирование в консоль.
+        LOGGER.addHandler(fileHandler);  // добавляем обработчик в наш логгер
     }
 }
 
